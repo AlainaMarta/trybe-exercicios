@@ -1,3 +1,37 @@
+
 div:hover{
     border-style: dashed;
+    text-align: center;
+   
+}
+#rosamarrom{
+    color: rosybrown;
+    font-family: 'Castoro Titling', cursive;
+    width: 20%;
+
+}
+#amarelo{
+    color: yellow;
+    font-family: 'Prompt', sans-serif;
+    width: 20%;
+
+}
+#azul{
+    color: blue;
+    font-family: 'Sigmar', cursive;
+    width: 20%;
+    font-size: large;
+
+}
+#preto{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    width: 20%;
+
+}
+#verdeclaro{
+    color: lightgreen;
+    font-family: 'Vina Sans', cursive;
+    width: 20%;
+
 }
