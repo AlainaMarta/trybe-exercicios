@@ -1,37 +1,28 @@
-
-div:hover{
-    border-style: dashed;
-    text-align: center;
-   
+ol {
+background-color: yellow;
 }
-#rosamarrom{
-    color: rosybrown;
-    font-family: 'Castoro Titling', cursive;
-    width: 20%;
+ol li:nth-child(even){
+    color: green;
 
 }
-#amarelo{
-    color: yellow;
-    font-family: 'Prompt', sans-serif;
-    width: 20%;
-
+ol li:nth-child(odd){
+    text-transform:lowercase;
 }
-#azul{
+h1, h3{
+    color: red;
+}
+em{
+    font-size: 40px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+li{
+    font-size: 20px;
+}
+
+.linguagens li:not(:nth-child(n + 4)){
     color: blue;
-    font-family: 'Sigmar', cursive;
-    width: 20%;
-    font-size: large;
-
 }
-#preto{
-    color: black;
-    font-family: 'Lato', sans-serif;
-    width: 20%;
-
-}
-#verdeclaro{
-    color: lightgreen;
-    font-family: 'Vina Sans', cursive;
-    width: 20%;
-
+.rosa{
+    background-color: pink;
 }
