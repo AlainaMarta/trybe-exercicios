@@ -1,5 +1,5 @@
-let myName = "Alaina";
-let birthCity = "Gama";
+let myName = 'Alaina';
+let birthCity = 'Gama';
 let birthYear = 2001;
 
 console.log(myName);
