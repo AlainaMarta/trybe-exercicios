@@ -1,0 +1,28 @@
+ol {
+background-color: yellow;
+}
+ol li:nth-child(even){
+    color: green;
+
+}
+ol li:nth-child(odd){
+    text-transform:lowercase;
+}
+h1, h3{
+    color: red;
+}
+em{
+    font-size: 40px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+li{
+    font-size: 20px;
+}
+
+.linguagens li:not(:nth-child(n + 4)){
+    color: blue;
+}
+.rosa{
+    background-color: pink;
+}
