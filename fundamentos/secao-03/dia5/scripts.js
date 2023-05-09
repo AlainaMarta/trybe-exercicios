@@ -1,26 +1,35 @@
-let motor = `ligado`
-const ligaDesliga = () => (
-    motor == `ligado` ?`Motor está ligado!`: `Motor está desligado` 
-);
-console.log(ligaDesliga());
+// let soma = 0;
+// let media = 0;
+// for(let index = 0; index < numbers.length; index += 1){
+    //    soma += numbers[index];
+    //    media = soma / numbers.length;
+    // }
+    // if(media > 20){
+        //  console.log('O valor da média aritmética é maior que 20');
+        // }else{
+//  console.log('O valor da média aritmética é menor ou igual a 20');
+// };
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];  
+// let higherNumber =0;
+// for(let index = 0; index < numbers.length; index += 1){
+//    if(higherNumber < numbers[index]){
+//        higherNumber = numbers[index];
+//        }
+//     }
+//     console.log(higherNumber);
 
 
-const valorPi = 3.14;
-const circleArea = (valorRaio) => (
-    area = valorPi * valorRaio ** 2 ,
-    area ? `Essa é a área do círculo: ${area}`: `O parâmetro radius deve ser um número`
-);
-
-console.log(circleArea(5));
-
-
-
-const longestWord = (frase) => {
-    let fraseSplit = frase.split(' ');
-    let maiorPalavra = [0];
-    for (let index = 0; index < fraseSplit.length; index += 1){
-        fraseSplit[index].length > maiorPalavra.length ?  maiorPalavra = fraseSplit[index] : false 
+// for(let index = 0; index < numbers.length;index += 1 ){
+//     let impar = 0;
+//     if(numbers[index] % 2 !== 0){
+//         impar = numbers[index] ;
+//         console.log(impar);
+//     }
+// }
+let lowerNumber = [];
+for(let index = 0; index > numbers.length; index += 1){
+   if(lowerNumber > numbers[index] ){
+       lowerNumber = numbers[index];
+       }
     }
-    return maiorPalavra
-};
-console.log(longestWord(`Antônio foi ao banheiro e não sabemos o que aconteceu`));
+ console.log(lowerNumber);
