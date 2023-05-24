@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS FLEXBOX - FLEX-GROW</title>
-<!-- ... -->
-<style>
-    .container {
-      display: flex;
-      height: 50px;
-      margin: auto;
-      width: 100%;
-    }
 
-    .box {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      /* Altere a propriedade flex-basis */
-      flex-basis: 100px;
-      flex-grow: 0;
-      flex-shrink: 1;
-    }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRYFLIX</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
 
-    .one {
-      background-color: #FBD26A;
-      list-style: none;
-    }
+<body>
+  <header class="header-container">
+    <nav class="menu-container one">
+      <ul>
+        <li>Cadastre-se</li>
+        <li>Conecte-se</li>
+        <li>Sobre</li>
+      </ul>
+    </nav>
+    <section class="logo-container two">
+      <img src="https://fontmeme.com/permalink/201215/2044acc483426f38dc2c79c3c84ab998.png" alt="Website Logo" />
+    </section>
+  </header>
+  <main class="main-container"> -
+    <section class="movie-container">
+      <section>
+        <h2>Assista hoje</h2>
+        <div class="card-container">
+          <div>FILMES 1</div>
+          <div>FILMES 2</div>
+          <div>FILMES 3</div>
+          <div>FILMES 4</div>
+          <div>FILMES 5</div>
+          <div>FILMES 6</div>
+          <div>FILMES 7</div>
+          <div>FILMES 8</div>
+          <div>FILMES 9</div>
+        </div>
+      </section>
+      <article>
+        <h2>Mais assistidos</h2>
+        <div class="card-container">
+          <div>FILMES 1</div>
+          <div>FILMES 2</div>
+          <div>FILMES 3</div>
+          <div>FILMES 4</div>
+          <div>FILMES 5</div>
+          <div>FILMES 6</div>
+          <div>FILMES 7</div>
+          <div>FILMES 8</div>
+          <div>FILMES 9</div>
+        </div>
+      </article>
+    </section>
+    <aside class="aside-container">
+      <h3>Últimas notícias</h3>
 
-    .two {
-      background-color: #FAA488;
-      list-style: none;
-    }
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!
+      </p>
 
-    .three {
-      background-color: #9069EF;
-      list-style: none;
-    }
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!
+      </p>
 
-    .four {
-      background-color: #006472;
-      list-style: none;
-    }
-  <!-- </style> -->
-<!-- ... -->
-  </head>
-  <body>
-    <ul class="container">
-      <li class="box one">1</li>
-      <li class="box two">2</li>
-      <li class="box three">3</li>
-      <li class="box four">4</li>
-    </ul>
-  </body>
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!
+      </p>
+    </aside>
+  </main>
+</body>
+
 </html>
