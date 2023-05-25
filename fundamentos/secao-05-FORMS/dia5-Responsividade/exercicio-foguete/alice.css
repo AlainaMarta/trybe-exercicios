@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  header p {
+    font-size: xx-large;
+    text-align: center;
+  }
+  .list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+
+  .title {
+    text-align: left;
+  }
+  
+  .chapter-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 20px;
+    }
+
+    .main-content h1 {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .main-content p {
+        font-size: x-large;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 130px;
+    }
+
+    footer h3 {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: x-large;
+    }
+
+  @media only screen and (max-width: 600px) {
+    header {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    header p {
+    font-size: xx-large;
+    }
+    .chapter-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 15px;
+    }
+    .title {
+        text-align: center;
+    }
+    .aside-one, .nav-list, #disclaimer {
+        display: none;
+    }
+    .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .main-content p {
+    font-size: x-large;
+    line-height: 1.5;
+    }
+}
+
+@media screen and (max-width:900px) {
+    header p {
+    font-size: xx-large;
+    text-align: center;
+    }
+    .list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    }
+    .title {
+        text-align: center;
+    }
+    .chapter-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 15px;
+    }
+    .aside-one {
+        display: none;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    .main-content p {
+        font-size: x-large;
+        line-height: 1.5;
+    }
+    footer {
+        text-align: center;
+    }
+}
