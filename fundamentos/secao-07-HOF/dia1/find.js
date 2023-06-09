@@ -98,8 +98,10 @@ const someBookWasReleaseOnThe80s = (books) => {
 }
 console.log(someBookWasReleaseOnThe80s(books));
 //--------------------//----------------------------//
-const expectedResult = false;
 
-const authorUnique = () => {
-  // escreva seu código aqui
+const authorUnique = (books) => {
+ return books.every((book) => {
+  book.author.birthYear === book.author.birthYear
+ })
 }
+console.log(authorUnique(books));
