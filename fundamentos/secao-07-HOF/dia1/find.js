@@ -61,8 +61,45 @@ const books = [
   },
 ];
 
-const expectedResult = 'Stephen King';
 const authorBornIn1947 = (books) => {
 return books.find((book) => book.author.birthYear === 1947).author.name;
 }
 console.log(authorBornIn1947(books));
+//--------------------//----------------------------//
+
+const smallerName = (books) => {
+ let nameBook;
+books.forEach((book) => {
+    const bookname = book.name;
+      if (!nameBook || bookname.length < nameBook.length) {
+      nameBook = bookname;
+    }
+  });
+  return nameBook;
+}
+console.log(smallerName(books));
+//--------------------//----------------------------//
+const getNamedBook = (books) => {
+  return books.find((book) => book.name.length === 26);
+}
+console.log(getNamedBook(books));
+//--------------------//----------------------------//
+function everyoneWasBornOnSecXX(books) {
+return books.every((book) => {
+ return book.author.birthYear >= 1901 && book.author.birthYear <= 2001;
+})
+}
+console.log(everyoneWasBornOnSecXX(books));
+//--------------------//----------------------------//
+const someBookWasReleaseOnThe80s = (books) => {
+  return books.some((book) => {
+   return book.releaseYear >= 1980 && book.releaseYear <= 1989;
+  })
+}
+console.log(someBookWasReleaseOnThe80s(books));
+//--------------------//----------------------------//
+const expectedResult = false;
+
+const authorUnique = () => {
+  // escreva seu código aqui
+}
